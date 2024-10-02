@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: ekart
-          image: mayurekart22:latest
+          image: mayur11052000/mayurekart22:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8070 # The port that the container is running on in the cluster
